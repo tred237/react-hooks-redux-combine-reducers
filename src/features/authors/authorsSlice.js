@@ -1,3 +1,5 @@
+import { v4 as uuid } from "uuid";
+
 // Action Creators
 export const addAuthor = (author) => {
     return {
@@ -14,7 +16,6 @@ export const addAuthor = (author) => {
   };
   
   // Reducers
-  import { v4 as uuid } from "uuid";
 
   const initialState = [];
   
